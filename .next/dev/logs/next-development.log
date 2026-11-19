@@ -1,0 +1,41 @@
+{"timestamp":"00:00:01.361","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:04.533","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:05:29.961","source":"Server","level":"LOG","message":"✓ Compiled in 79ms"}
+{"timestamp":"00:05:34.079","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:06:09.591","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
+{"timestamp":"00:06:12.768","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:06:57.662","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:07:00.710","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:07:25.094","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:07:27.609","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:08:37.310","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:08:41.116","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:09:29.169","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:09:53.522","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:11:07.969","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:13:56.996","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:16:00.623","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"05:14:15.399","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"05:14:26.737","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"05:16:09.698","source":"Server","level":"LOG","message":"✓ Compiled in 132ms"}
+{"timestamp":"05:16:30.332","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"05:16:30.353","source":"Server","level":"LOG","message":"✓ Compiled in 109ms"}
+{"timestamp":"05:16:31.463","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"05:16:37.211","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/previews/devspace.png\" 404"}
+{"timestamp":"05:19:37.155","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"05:19:37.583","source":"Browser","level":"WARN","message":"Image with src \"/previews/devspace.png\" has \"fill\" but is missing \"sizes\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes"}
+{"timestamp":"05:19:37.789","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/previews/devspace.png\\\" has \\\"fill\\\" but is missing \\\"sizes\\\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes\\u001b[39m\""}
+{"timestamp":"05:19:38.142","source":"Browser","level":"WARN","message":"Image with src \"/previews/devspace.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"05:19:38.145","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/previews/devspace.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"05:20:50.048","source":"Server","level":"LOG","message":"✓ Compiled in 78ms"}
+{"timestamp":"05:23:35.619","source":"Server","level":"LOG","message":"✓ Compiled in 92ms"}
+{"timestamp":"05:23:58.511","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"09:02:20.089","source":"Server","level":"LOG","message":"✓ Compiled in 137ms"}
+{"timestamp":"09:03:20.228","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"09:03:20.905","source":"Server","level":"ERROR","message":"⨯ ReferenceError: ss is not defined"}
+{"timestamp":"09:03:21.545","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"09:04:01.093","source":"Browser","level":"ERROR","message":"Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). "}
+{"timestamp":"09:04:01.094","source":"Server","level":"ERROR","message":"[browser] \"Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template).\" \"\""}
+{"timestamp":"09:04:01.107","source":"Browser","level":"ERROR","message":"Uncaught ReferenceError: ss is not defined\n    at module evaluation (src/components/projects-section.tsx:57:17)\n    at Home (src\\app\\page.tsx:15:7)\n  \u001b[90m55 |\u001b[0m }\n  \u001b[90m56 |\u001b[0m\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m57 |\u001b[0m \u001b[36mexport\u001b[0m \u001b[36mfunction\u001b[0m \u001b[33mProjectsSection\u001b[0m() {\n  \u001b[90m   |\u001b[0m                 \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m58 |\u001b[0m   \u001b[36mconst\u001b[0m [selectedProject, setSelectedProject] = useState<\u001b[33mProjectItem\u001b[0m | \u001b[36mnull\u001b[0m>(\n  \u001b[90m59 |\u001b[0m     \u001b[36mnull\u001b[0m\n  \u001b[90m60 |\u001b[0m   );"}
+{"timestamp":"09:04:01.108","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught ReferenceError: ss is not defined\\u001b[39m\\n\\u001b[31m    at module evaluation (src/components/projects-section.tsx:57:17)\\n    at Home (src\\\\app\\\\page.tsx:15:7)\\u001b[39m\\n  \\u001b[90m55 |\\u001b[0m }\\n  \\u001b[90m56 |\\u001b[0m\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m57 |\\u001b[0m \\u001b[36mexport\\u001b[0m \\u001b[36mfunction\\u001b[0m \\u001b[33mProjectsSection\\u001b[0m() {\\n  \\u001b[90m   |\\u001b[0m                 \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m58 |\\u001b[0m   \\u001b[36mconst\\u001b[0m [selectedProject, setSelectedProject] = useState<\\u001b[33mProjectItem\\u001b[0m | \\u001b[36mnull\\u001b[0m>(\\n  \\u001b[90m59 |\\u001b[0m     \\u001b[36mnull\\u001b[0m\\n  \\u001b[90m60 |\\u001b[0m   );\""}
+{"timestamp":"09:04:03.189","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}

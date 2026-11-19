@@ -1,0 +1,261 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   DESIGN SYSTEM — Noir & Champagne Gold Luxury
+   ============================================================ */
+
+/* ---------- Color Palette ---------- */
+:root {
+  color-scheme: light;
+
+  /* Background & Surface — Ivory */
+  --background: #FAF7F2;
+  --surface: #F2EDE4;
+  --surface-hover: #EAE3D6;
+
+  /* Foreground / Text */
+  --foreground: #1C1814;
+  --foreground-muted: #5A5147;
+  --foreground-subtle: #6F6556;
+
+  /* Primary — Champagne Gold */
+  --primary: #B08D4A;
+  --primary-hover: #9A7A3C;
+  --primary-text: #7A5C22;
+  --primary-foreground: #14110D;
+  --primary-light: #F5EEDB;
+
+  /* Secondary — Deep Emerald */
+  --secondary: #1F5A47;
+  --secondary-hover: #174638;
+  --secondary-foreground: #FAF7F2;
+  --secondary-light: #E4F0EB;
+
+  /* Accent — Warm Bronze */
+  --accent: #8F5A2E;
+  --accent-hover: #7A4B24;
+  --accent-light: #F7EFE9;
+
+  /* Border */
+  --border: #DDD4C4;
+  --border-hover: #CBBFA9;
+
+  /* Status */
+  --success: #2F6B4A;
+  --error: #A8352B;
+  --warning: #885D0D;
+  --info: #7A6A4E;
+
+  /* Luxury Elements */
+  --ring: #B08D4A;
+  --glow: rgba(176, 141, 74, 0.15);
+  --gradient-gold: linear-gradient(135deg, #7A5C22, #B08D4A, #7A5C22);
+
+  /* Warm Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(20 14 6 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(20 14 6 / 0.08), 0 2px 4px -2px rgb(20 14 6 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(20 14 6 / 0.1), 0 4px 6px -4px rgb(20 14 6 / 0.06);
+  --shadow-xl: 0 20px 25px -5px rgb(20 14 6 / 0.12), 0 8px 10px -6px rgb(20 14 6 / 0.08);
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Container */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-max: 1200px;
+
+  /* Animation */
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ---------- Dark Mode — Warm Noir ---------- */
+.dark {
+  color-scheme: dark;
+
+  --background: #0F0D0B;
+  --surface: #18150F;
+  --surface-hover: #221D15;
+
+  --foreground: #F3ECDF;
+  --foreground-muted: #BDB2A0;
+  --foreground-subtle: #968B78;
+
+  --primary: #D4AF6A;
+  --primary-hover: #E3C285;
+  --primary-text: #D4AF6A;
+  --primary-foreground: #14110D;
+  --primary-light: #2A2214;
+
+  --secondary: #5FB38E;
+  --secondary-hover: #7CC7A5;
+  --secondary-foreground: #0F0D0B;
+  --secondary-light: #12281E;
+
+  --accent: #C58A5B;
+  --accent-hover: #D69E71;
+  --accent-light: #2E1F14;
+
+  --border: #2B251C;
+  --border-hover: #3D3527;
+
+  --success: #6FBF8E;
+  --error: #E57A6C;
+  --warning: #E0A84A;
+  --info: #C9B08A;
+
+  --ring: #D4AF6A;
+  --glow: rgba(212, 175, 106, 0.15);
+  --gradient-gold: linear-gradient(135deg, #B08D4A, #E3C285, #B08D4A);
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.5), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.6), 0 8px 10px -6px rgb(0 0 0 / 0.4);
+}
+
+/* ---------- Tailwind Theme Tokens ---------- */
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-foreground-subtle: var(--foreground-subtle);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-text: var(--primary-text);
+  --color-primary-light: var(--primary-light);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary-light: var(--secondary-light);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-light: var(--accent-light);
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --color-warning: var(--warning);
+  --color-info: var(--info);
+  --color-ring: var(--ring);
+  --font-display: var(--font-display);
+}
+
+/* ============================================================
+   BASE STYLES (in @layer base for correct Tailwind v4 cascade)
+   ============================================================ */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--foreground);
+    font-family:
+      var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition:
+      background var(--duration-normal) var(--ease-out),
+      color var(--duration-normal) var(--ease-out);
+  }
+
+  /* ---------- Typography ---------- */
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--foreground);
+    font-family: var(--font-display), "Playfair Display", Georgia, serif;
+  }
+
+  h1 { font-size: clamp(2.25rem, 6vw, 4rem); }
+  h2 { font-size: clamp(1.75rem, 4vw, 2.75rem); }
+  h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); }
+  h4 { font-size: clamp(1.125rem, 2vw, 1.5rem); }
+
+  p {
+    color: var(--foreground-muted);
+    line-height: 1.7;
+  }
+
+  a {
+    color: var(--primary-text);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  a:hover {
+    color: var(--primary);
+  }
+
+  /* ---------- Selection ---------- */
+  ::selection {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+  }
+
+  /* ---------- Scrollbar ---------- */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--surface);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-hover);
+    border-radius: var(--radius-full);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+  }
+
+  /* ---------- Focus & Reduced Motion ---------- */
+  :focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
